@@ -1,0 +1,58 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.stars{
+    width: 100%;
+    height: 100%;
+}
+
+.bloc{
+    margin-bottom: 2em;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    text-align: right;
+    padding-left: 1em;
+    margin-top: 0px;
+}
+.align{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.croix{
+    display: block;
+    position: absolute;
+    font-size: 25px;
+    z-index: 9999;
+    height: 30px;
+    width: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: -50%;
+    border-radius: 25px;
+    box-shadow: 05px -05px 20px black;
+}
+.bloc:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.previous:hover{cursor: pointer;}
+.next:hover{cursor: pointer;}
+.croix:hover{cursor: pointer;}
+
+#searchfield{
+    margin-top: 25px;
+    border-radius: 25px ;
+    height: 50px;
+    width: 600px;
+    margin-bottom: 25px;
+}

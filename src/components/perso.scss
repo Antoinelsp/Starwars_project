@@ -1,0 +1,67 @@
+.content_perso{
+    display: block;
+    position: absolute;
+    z-index: 9998;
+    height: 70vh;
+    width: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: -10%;
+    border-radius: 10px;
+    box-shadow: 05px -05px 20px black;
+}
+.contenu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.test1{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.test{
+    width: 100%;
+    height: 5%;
+    text-align: left ;  
+}
+.test_film{
+    width: 100%;
+    height: fit-content;  
+    text-align: left ; 
+}
+.test2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding-top: 25px;
+    justify-content: end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.closed{
+    height: 5%;
+    width: 10%;
+    font-size: 200%;
+}
+.test_plus{
+    width: 50%;
+    height: 5%;
+    text-align: center ; 
+    border: solid 1px black ;
+    border-radius: 5px ;
+    margin-right: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, .2);
+}
+.test_plus:hover{
+    cursor: pointer;
+    background-color: black ;
+    color: white;
+}
